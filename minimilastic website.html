@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Surjan Dhungal — UK Pensions Specialist</title>
+  <meta name="description" content="Portfolio of Surjan Dhungal — Senior Pension Administrator, UK DB Pensions, GMP expert.">
+  <style>
+    :root{
+      --bg:#0b0b10;
+      --neon-blue:#00d4ff;
+      --neon-yellow:#ffd800;
+      --muted:#9aa6b2;
+      --card:rgba(255,255,255,0.03);
+      --glass:rgba(255,255,255,0.04);
+      --radius:14px; --max:960px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;font-family:Inter,system-ui;
+      background:var(--bg);color:var(--neon-blue);
+      -webkit-font-smoothing:antialiased;
+      padding:20px;display:flex;justify-content:center;
+    }
+    .wrap{width:100%;max-width:var(--max)}
+    header{display:flex;justify-content:space-between;align-items:center}
+
+    .logo{display:flex;align-items:center;gap:12px;color:white;text-decoration:none}
+    .logo-badge{width:50px;height:50px;border-radius:10px;background:linear-gradient(135deg,var(--neon-blue),#00678f);display:flex;justify-content:center;align-items:center;font-weight:700;color:#071020}
+    .role{font-size:12px;color:var(--muted)}
+
+    nav{display:flex;gap:12px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;font-size:14px;padding:6px 8px;border-radius:8px}
+    nav a:hover{background:var(--card)}
+    .cta{background:linear-gradient(90deg,var(--neon-blue),var(--neon-yellow));color:black;padding:8px 12px;border-radius:10px;text-decoration:none;font-size:14px}
+
+    .menu-btn{display:none;color:var(--neon-yellow);font-size:22px;background:none;border:0}
+    #navLinks{display:flex;gap:12px}
+
+    @media(max-width:720px){
+      .menu-btn{display:block}
+      #navLinks{display:none;flex-direction:column;background:var(--card);padding:12px;border-radius:12px;margin-top:10px}
+      nav a{width:100%}
+    }
+
+    .card{margin-top:18px;background:transparent;border:1px solid var(--glass);padding:18px;border-radius:var(--radius);box-shadow:0 0 20px rgba(0,0,0,0.4)}
+    .hero{display:flex;gap:14px;align-items:center}
+    .avatar{width:80px;height:80px;border-radius:12px;background:linear-gradient(135deg,var(--neon-blue),var(--neon-yellow));display:flex;justify-content:center;align-items:center;font-size:22px;font-weight:800;color:#071020}
+    h1{color:white;font-size:22px;margin:0}
+    .lead{color:var(--muted);font-size:14px;margin-top:8px}
+
+    .badge{background:var(--card);padding:6px 10px;font-size:12px;border-radius:8px;color:var(--neon-yellow)}
+
+    .section-card{background:transparent;border:1px solid var(--glass);padding:16px;border-radius:12px;margin-top:18px;box-shadow:0 0 20px rgba(0,0,0,0.4)}
+    h2{color:var(--neon-blue);margin:0 0 8px;font-size:18px}
+
+    ul{color:var(--muted);padding-left:18px;font-size:14px}
+
+    .grid{display:grid;gap:12px}
+    @media(min-width:720px){.grid{grid-template-columns:repeat(2,1fr)}}
+    .project{background:var(--card);padding:12px;border-radius:10px;color:var(--muted)}
+
+    .contact-grid{display:grid;gap:12px}
+    .contact-item{background:var(--card);padding:12px;border-radius:10px;color:var(--muted)}
+
+    footer{text-align:center;margin-top:28px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <a class="logo" href="#">
+        <div class="logo-badge">SD</div>
+        <div>
+          <div class="name">Surjan Dhungal</div>
+          <div class="role">Senior Pension Administrator — UK DB Pensions</div>
+        </div>
+      </a>
+
+      <nav>
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <div id="navLinks">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a class="cta" href="/Surjan_Dhungal_Resume.pdf" download>Download CV</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="card hero">
+      <div class="avatar">SD</div>
+      <div>
+        <h1>Senior Pension Administrator & UK DB Specialist</h1>
+        <p class="lead">Expert in GMP equalisation, excess GMP, revaluation (Section 148), manual calculations, transfers, retirements, and death cases.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;">
+          <div class="badge">GMP Equalisation</div>
+          <div class="badge">Manual Calculations</div>
+          <div class="badge">Transfers</div>
+          <div class="badge">Section 148</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-card">
+      <h2>About</h2>
+      <p style="color:var(--muted);font-size:14px">Experienced UK DB pensions specialist with deep expertise in GMP calculations, transfers, retirement processing, revaluation rules, and complex case handling. Completed a 3‑month onshore training assignment at Equiniti Crawley, UK.Part of the pilot team during the right-shoring of a major UK pension project to India, helping ensure a smooth and successful transition within a short time frame.</p>
+    </section>
+
+    <section id="experience" class="section-card">
+      <h2>Professional Experience</h2>
+      <h5>Equiniti India Private Limited <i>(June 2022 – Present)</i> </h5>
+      <ul>
+        <li>Manual DB pension calculations including GMP checks.</li>
+        <li>Administer full lifecycle DB events including leaver finalisation, transfer-in and transfer-out processing, retirement quotations and finalisation, death notifications and survivor benefit settlements, and AVC handling.</li>
+
+        <li>Applied revaluation rules including Section 148 and fixed rate.</li>
+
+        <li>Validate, audit and quality-check complex calculations to ensure accuracy, compliance and consistency with scheme and statutory requirements..</li>
+
+        <li>Collaborate with onshore UK colleagues, actuarial teams and member support teams to resolve exceptions, clarify scheme rules and maintain service-level delivery</li>
+
+        <li>3-month onshore assignment focused on advanced UK pension administration, member case handling and operational alignment with UK delivery teams. Gained hands-on experience in complex DB case work, client expectations, governance standards and quality assurance practices</li>
+
+      </ul>
+    </section>
+
+    <section id="projects" class="section-card">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="project"><strong>GMP Equalisation</strong><br>Reconciled pre/post‑88 GMP splits and excess GMP.</div>
+        <div class="project"><strong>Transfer Audit</strong><br>Validated transfer values and GMP splits.</div>
+        <div class="project"><strong>Onshore Training</strong><br>Standardised processes with UK team.</div>
+        <div class="project"><strong>Revaluation Project</strong><br>Applied Section 148 & fixed-rate methods.</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-card">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-item">Email: Surjanofficial@gmail.com</div>
+        <div class="contact-item">LinkedIn: linkedin.com/in/surjan-dhungal-535694246</div>
+        <div class="contact-item">Phone: 8837229278</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;margin-top:12px;">
+        <a class="cta" href="mailto:Surjanofficial@gmail.com" style="text-align:center;">Email Me</a>
+        <a href="/Surjan_Dhungal_Resume.pdf" download style="text-align:center;padding:10px;border:1px solid var(--glass);border-radius:8px;color:var(--neon-blue)">Download CV</a>
+      </div>
+    </section>
+
+    <footer>© <span id="year"></span> Surjan Dhungal — UK Pensions Specialist</footer>
+
+  </div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const menuBtn = document.getElementById('menuBtn');
+  const navLinks = document.getElementById('navLinks');
+  menuBtn.onclick = ()=>{
+    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+  };
+</script>
+
+</body>
+</html>
